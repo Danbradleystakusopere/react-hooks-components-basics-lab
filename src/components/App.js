@@ -18,15 +18,16 @@ function Home() {
 
 {/* write an <About> component here */}
 
-
 function App() {
   return (
-    <div>
-      <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+    <div className="App">
+      <nav>
+        <a id="home" href="#home">Home</a>
+        <a id="about" href="#about">About</a>
+      </nav>
     </div>
   );
 }
+
 
 export default App;
